@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#128c7e</color>
+    <color name="colorPrimaryDark">#075E54</color>
+    <color name="colorAccent">#128c7e</color>
+    <color name="whiteGreen">#c7e3c7</color>
+
+    <color name="white">#FFFFFF</color>
+
+    <color name="tan_background">#F4F1EA</color>
+    
+    <color name="text_appearance">#FFFFFF</color>
+    <color name="gray">#656464</color>
+
+    <color name="current_time">#ffd651</color>
+
+</resources>

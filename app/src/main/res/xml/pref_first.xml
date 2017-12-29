@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:icon="@mipmap/logo"
+        android:title="@string/welcome">
+
+
+        <ListPreference
+            android:defaultValue="@string/astana_value"
+            android:entries="@array/choose_city_labels"
+            android:entryValues="@array/choose_city_values"
+            android:key="@string/choose_city_key"
+            android:summary="%s"
+            android:title="@string/choose_city" />
+
+
+        <Preference
+            android:key="startlink"
+            android:title="@string/start" />
+
+    </PreferenceCategory>
+</PreferenceScreen>

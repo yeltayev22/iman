@@ -1,0 +1,224 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="3"
+    android:orientation="vertical"
+    android:padding="@dimen/widget_margin">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#CCFFFFFF">
+
+        <TextView
+            android:id="@+id/date1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="8dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="@dimen/text_main"
+            tools:text="Wednesday, 24 July" />
+
+
+        <TextView
+            android:id="@+id/city"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="12dp"
+            android:layout_marginRight="12dp"
+            android:layout_marginTop="8dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:textSize="@dimen/text_main"
+            tools:text="Astana" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/widget_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="6dp"
+        android:layout_marginRight="6dp"
+        android:layout_weight="6"
+        android:background="#B3FFFFFF"
+        android:orientation="horizontal">
+        <!-- Fajr -->
+        <RelativeLayout
+            android:id="@+id/fajr_layout1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/fajr_tv1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:text="@string/fajr"
+                android:textSize="@dimen/text" />
+
+            <TextView
+                android:id="@+id/fajr_time1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/fajr_tv1"
+                android:layout_centerHorizontal="true"
+                android:textSize="@dimen/text"
+                tools:text="07:20" />
+
+        </RelativeLayout>
+
+        <!-- Sunrise -->
+        <RelativeLayout
+            android:id="@+id/sunrise_layout1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/sunrise_tv1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:text="@string/sunrise"
+                android:textSize="@dimen/text" />
+
+            <TextView
+                android:id="@+id/sunrise_time1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/sunrise_tv1"
+                android:layout_centerHorizontal="true"
+                android:textSize="@dimen/text"
+                tools:text="09:20" />
+
+        </RelativeLayout>
+
+        <!-- Dhuhr -->
+        <RelativeLayout
+            android:id="@+id/dhuhr_layout1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/dhuhr_tv1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:text="@string/dhuhr"
+                android:textSize="@dimen/text" />
+
+            <TextView
+                android:id="@+id/dhuhr_time1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/dhuhr_tv1"
+                android:layout_centerHorizontal="true"
+                android:textSize="@dimen/text"
+                tools:text="13:29" />
+
+        </RelativeLayout>
+
+        <!-- Asr -->
+        <RelativeLayout
+            android:id="@+id/asr_layout1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/asr_tv1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:text="@string/asr"
+                android:textSize="@dimen/text" />
+
+            <TextView
+                android:id="@+id/asr_time1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/asr_tv1"
+                android:layout_centerHorizontal="true"
+                android:textSize="@dimen/text"
+                tools:text="18:30" />
+
+        </RelativeLayout>
+
+        <!-- Maghrib -->
+        <RelativeLayout
+            android:id="@+id/maghrib_layout1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/maghrib_tv1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:text="@string/maghrib"
+                android:textSize="@dimen/text" />
+
+            <TextView
+                android:id="@+id/maghrib_time1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/maghrib_tv1"
+                android:layout_centerHorizontal="true"
+                android:textSize="@dimen/text"
+                tools:text="21:20" />
+
+        </RelativeLayout>
+
+        <!-- Isha -->
+        <RelativeLayout
+            android:id="@+id/isha_layout1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/isha_tv1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:text="@string/isha"
+                android:textSize="@dimen/text" />
+
+            <TextView
+                android:id="@+id/isha_time1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/isha_tv1"
+                android:layout_centerHorizontal="true"
+                android:textSize="@dimen/text"
+                tools:text="23:10" />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

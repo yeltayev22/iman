@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "213377883509",
+    "firebase_url": "https://mubrapp.firebaseio.com",
+    "project_id": "mubrapp",
+    "storage_bucket": "mubrapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:213377883509:android:8c2a818ab402770c",
+        "android_client_info": {
+          "package_name": "zerotoonecom.n17r.mubr"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "213377883509-odhmqef3q97lhit7pmnaiq5do6iincv0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "zerotoonecom.n17r.mubr",
+            "certificate_hash": "1add269e5a9eb4478ad3cd59a2f49a90e35b1f71"
+          }
+        },
+        {
+          "client_id": "213377883509-1o1t41pg26if3qibmj0l7v2nbette4l6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD1atw89B_1VZkjCdX_57DCK5jSe0QbXbg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "213377883509-1o1t41pg26if3qibmj0l7v2nbette4l6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

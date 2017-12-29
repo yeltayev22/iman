@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:minEms="2"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="24sp"
+        tools:text="1" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            tools:text="Name"
+            android:paddingBottom="5dp"/>
+
+        <TextView
+            android:id="@+id/kazakh_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorAccent"
+            tools:text="Kazakh Name"
+            android:paddingBottom="5dp"/>
+
+        <TextView
+            android:id="@+id/arabic_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="Arabic name"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"/>
+    </LinearLayout>
+
+</LinearLayout>
