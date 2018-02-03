@@ -6,11 +6,11 @@ import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 
 import zerotoonecom.n17r.mubr.MenuFragment;
-import zerotoonecom.n17r.mubr.NamazTimeFragment;
+import zerotoonecom.n17r.mubr.Time.NamazTimeFragment;
 import zerotoonecom.n17r.mubr.R;
 
 /**
- * Created by user on 14.07.2017.
+ * Created by Nurdaulet Yeltayev (yeltayev22) on 14.07.2017.
  */
 
 public class CategoryAdapter extends FragmentPagerAdapter {

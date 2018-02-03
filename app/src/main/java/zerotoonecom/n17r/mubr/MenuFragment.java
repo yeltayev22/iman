@@ -11,8 +11,13 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.Toast;
 
-import zerotoonecom.n17r.mubr.data.NamazTimeContract;
-import zerotoonecom.n17r.mubr.data.NamazTimeDbHelper;
+import zerotoonecom.n17r.mubr.Counter.CounterActivity;
+import zerotoonecom.n17r.mubr.Holidays.CalendarActivity;
+import zerotoonecom.n17r.mubr.Mosques.MosqueActivity;
+import zerotoonecom.n17r.mubr.Names.NamesActivity;
+import zerotoonecom.n17r.mubr.Schedule.ScheduleActivity;
+import zerotoonecom.n17r.mubr.Time.NamazTimeContract;
+import zerotoonecom.n17r.mubr.Time.NamazTimeDbHelper;
 
 public class MenuFragment extends Fragment {
 

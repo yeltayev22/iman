@@ -80,9 +80,15 @@
             android:key="@string/rate_key"
             android:title="@string/rate" />
 
+        <Preference
+            android:icon="@drawable/help"
+            android:key="@string/help_key"
+            android:title="@string/help" />
 
         <Preference
             android:key="my_name"
             android:layout="@layout/about" />
+
+
     </PreferenceCategory>
 </PreferenceScreen>

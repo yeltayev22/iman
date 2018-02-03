@@ -2,6 +2,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/white"
     android:columnCount="2"
     android:orientation="vertical"
     android:rowCount="3"
@@ -10,8 +11,6 @@
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
-
-
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -36,7 +35,7 @@
                         android:id="@+id/counter_image_view"
                         android:layout_width="100dp"
                         android:layout_height="100dp"
-                        android:src="@drawable/tasbeeh" />
+                        android:src="@drawable/muslim_tasbih" />
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -61,7 +60,7 @@
                         android:id="@+id/schedule_image_view"
                         android:layout_width="100dp"
                         android:layout_height="100dp"
-                        android:src="@drawable/schedule" />
+                        android:src="@drawable/praying_mat" />
 
                     <TextView
                         android:layout_width="match_parent"
@@ -93,7 +92,7 @@
                         android:id="@+id/events_image_view"
                         android:layout_width="100dp"
                         android:layout_height="100dp"
-                        android:src="@drawable/hijri" />
+                        android:src="@drawable/medina_sherif" />
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -150,7 +149,7 @@
                         android:id="@+id/names_image_view"
                         android:layout_width="100dp"
                         android:layout_height="100dp"
-                        android:src="@drawable/hijri" />
+                        android:src="@drawable/allah_word" />
 
                     <TextView
                         android:layout_width="wrap_content"

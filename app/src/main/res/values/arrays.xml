@@ -21,6 +21,8 @@
         <item>@string/oral_label</item>
         <item>@string/oskemen_label</item>
         <item>@string/zhezqazghan_label</item>
+        <item>@string/usharal_label</item>
+        <item>@string/hromtau_label</item>
     </string-array>
 
     <string-array name="choose_city_values">
@@ -43,6 +45,8 @@
         <item>@string/oral_value</item>
         <item>@string/oskemen_value</item>
         <item>@string/zhezqazghan_value</item>
+        <item>@string/usharal_value</item>
+        <item>@string/hromtau_value</item>
     </string-array>
 
     <string-array name="months_array">
@@ -76,12 +80,14 @@
         <item>@string/no_label</item>
         <item>@string/azan_kasym_label</item>
         <item>@string/azan_kasym_1_label</item>
+        <item>@string/azan_ali_ahmad_label</item>
     </string-array>
 
     <string-array name="azan_values">
         <item>@string/no_value</item>
         <item>@string/azan_kasym_value</item>
         <item>@string/azan_kasym_1_value</item>
+        <item>@string/azan_ali_ahmad_value</item>
     </string-array>
 
 </resources>

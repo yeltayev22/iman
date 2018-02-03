@@ -14,7 +14,6 @@
         android:roundIcon="@mipmap/logo"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-
         <activity
             android:name=".MainActivity"
             android:configChanges="orientation"
@@ -25,15 +24,14 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
         <activity
-            android:name=".CounterActivity"
+            android:name=".Counter.CounterActivity"
             android:configChanges="orientation"
             android:label="@string/counter"
             android:parentActivityName=".MainActivity"
             android:screenOrientation="portrait" />
 
-        <receiver android:name=".NamazWidgetProvider">
+        <receiver android:name=".Widget.NamazWidgetProvider">
             <intent-filter>
                 <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
             </intent-filter>
@@ -44,39 +42,35 @@
         </receiver>
 
         <activity
-            android:name=".ScheduleActivity"
+            android:name=".Schedule.ScheduleActivity"
             android:configChanges="orientation"
             android:label="@string/schedule"
             android:parentActivityName=".MainActivity"
             android:screenOrientation="portrait" />
-
         <activity
-            android:name=".SettingsActivity"
+            android:name=".Settings.SettingsActivity"
             android:configChanges="orientation"
             android:label="@string/settings"
             android:parentActivityName=".MainActivity"
             android:screenOrientation="portrait" />
+        <activity android:name=".FirstLaunch.FirstLaunchActivity" />
 
-        <activity android:name=".FirstLaunchActivity"/>
-
-        <receiver android:name=".Mote" />
+        <receiver android:name=".Notification.NotificationReceiver" />
 
         <activity
-            android:name=".CalendarActivity"
+            android:name=".Holidays.CalendarActivity"
             android:configChanges="orientation"
             android:label="@string/event"
             android:parentActivityName=".MainActivity"
             android:screenOrientation="portrait" />
-
         <activity
-            android:name=".MosqueActivity"
+            android:name=".Mosques.MosqueActivity"
             android:configChanges="orientation"
             android:label="@string/mosque"
             android:parentActivityName=".MainActivity"
             android:screenOrientation="portrait" />
-
         <activity
-            android:name=".NamesActivity"
+            android:name=".Names.NamesActivity"
             android:configChanges="orientation"
             android:label="@string/names"
             android:parentActivityName=".MainActivity"
@@ -85,12 +79,12 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="zerotoonecom.n17r.mubr.MainActivity" />
         </activity>
-
         <activity
-            android:name=".NameActivity"
+            android:name=".Names.NameActivity"
             android:configChanges="orientation"
-            android:parentActivityName=".NamesActivity"
-            android:screenOrientation="portrait"/>
+            android:parentActivityName=".Names.NamesActivity"
+            android:screenOrientation="portrait" />
+
     </application>
 
 </manifest>

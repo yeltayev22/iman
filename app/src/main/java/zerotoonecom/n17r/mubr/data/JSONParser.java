@@ -10,7 +10,7 @@ import java.net.HttpURLConnection;
 import java.net.URL;
 import java.nio.charset.Charset;
 
-import zerotoonecom.n17r.mubr.NamazTimeFragment;
+import zerotoonecom.n17r.mubr.Time.NamazTimeFragment;
 
 public class JSONParser {
 

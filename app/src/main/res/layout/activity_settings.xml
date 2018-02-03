@@ -3,6 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="zerotoonecom.n17r.mubr.SettingsActivity">
+    android:background="@color/white"
+    tools:context="zerotoonecom.n17r.mubr.Settings.SettingsActivity">
 
 </android.support.constraint.ConstraintLayout>

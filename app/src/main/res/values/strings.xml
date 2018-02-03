@@ -4,6 +4,11 @@
     <string name="counter">Counter</string>
     <string name="menu">Menu</string>
     <string name="duas">Dua</string>
+    <string name="event">Islamic days</string>
+    <string name="mosque">Mosques</string>
+    <string name="today">Today</string>
+    <string name="action_settings">Settings</string>
+    <string name="names">99 names of Allah</string>
 
     <!-- Namaz Namings -->
     <string name="fajr">Fajr</string>
@@ -12,13 +17,83 @@
     <string name="asr">Asr</string>
     <string name="maghrib">Maghrib</string>
     <string name="isha">Isha</string>
+    <!-- Namaz Namings -->
+
 
     <!-- Settings -->
     <string name="choose_city">Choose the city</string>
     <string name="city">City</string>
     <string name="choose_city_key">choose_city</string>
     <string name="choose_current_city_key">choose_current_city</string>
+    <string name="about">ABOUT APP</string>
+    <string name="share">Share app</string>
+    <string name="share_key">share</string>
+    <string name="share_text">Get \"iman\" app on Play Market</string>
+    <string name="rate">Rate app</string>
+    <string name="rate_key">rate</string>
+    <string name="my_name">© Nurdaulet Yeltayev</string>
+    <string name="version">Version</string>
+    <!-- Settings -->
 
+    <string name="check_internet_connection">Please, check the internet connection. Then select city again.</string>
+    <string name="check_internet">Please, check the internet connection.</string>
+    <string name="left_time">Left time</string>
+    <string name="timings">timings</string>
+    <string name="add_widget">Add widget</string>
+    <string name="color">color</string>
+
+
+    <!-- Strings related to Settings -->
+    <string name="settings">Settings</string>
+    <string name="languages">Choose language</string>
+    <string name="language_key">choose_language_key</string>
+
+    <string name="ru_value">ru</string>
+    <string name="kz_value">kk</string>
+    <string name="en_value">en</string>
+    <string name="ru_label">Русский</string>
+    <string name="kz_label">Қазақша</string>
+    <string name="en_label">English</string>
+
+    <string name="start">Click to start</string>
+    <string name="welcome">Welcome!</string>
+    <string name="check_download">Schedule wasn\'t downloaded. Check the internet connection and try again.</string>
+    <string name="cancel">Cancel</string>
+    <string name="ok">OK</string>
+
+    <string name="notifications">NOTIFICATIONS</string>
+    <string name="notification_sound">NOTIFICATION SOUND</string>
+
+    <string name="fajr_notification_key">fajr_notification</string>
+    <string name="sunrise_notification_key">sunrise_notification</string>
+    <string name="dhuhr_notification_key">dhuhr_notification</string>
+    <string name="asr_notification_key">asr_notification</string>
+    <string name="maghrib_notification_key">maghrib_notification</string>
+    <string name="isha_notification_key">isha_notification</string>
+    <string name="fajr_notification_changed_key">fajr_notification_changed_key</string>
+    <string name="notification_changed">notification_changed</string>
+    <string name="sunrise_notification_changed_key">sunrise_notification_changed_key</string>
+    <string name="dhuhr_notification_changed_key">dhuhr_notification_changed_key</string>
+    <string name="asr_notification_changed_key">asr_notification_changed_key</string>
+    <string name="maghrib_notification_changed_key">maghrib_notification_changed_key</string>
+    <string name="isha_notification_changed_key">isha_notification_changed_key</string>
+
+    <string name="azan">Athan</string>
+    <string name="azan_key">azan_key</string>
+    <string name="no_label">No</string>
+    <string name="azan_kasym_label">Kasym Ashimov (Fajr)</string>
+    <string name="azan_kasym_1_label">Kasym Ashimov</string>
+    <string name="azan_ali_ahmad_label">Sheikh Ali Ahmed Mulla</string>
+    <string name="no_value">no</string>
+    <string name="azan_kasym_value">kasym</string>
+    <string name="azan_kasym_1_value">kasym_one</string>
+    <string name="azan_ali_ahmad_value">ali_ahmad</string>
+
+    <string name="ringtone">Ringtone</string>
+    <string name="ringtone_key">ringtone_key</string>
+    <string name="unselect_azan">To select ringtone, please, set Athan to \"no\".</string>
+    <string name="vibrate">Vibrate</string>
+    <string name="vibrate_key">vibrate_key</string>
 
     <!-- City labels -->
     <string name="astana_label">Astana</string>
@@ -41,6 +116,11 @@
     <string name="oskemen_label">Ust-Kamenogorsk</string>
     <string name="zhezqazghan_label">Zhezqazghan</string>
 
+    <string name="usharal_label">Usharal</string>
+    <string name="hromtau_label">Hromtau</string>
+
+
+
     <!-- City values -->
     <string name="astana_value">astana</string>
     <string name="aqtau_value">aqtau</string>
@@ -61,14 +141,8 @@
     <string name="turkestan_value">turkestan</string>
     <string name="oskemen_value">oskemen</string>
     <string name="zhezqazghan_value">zhezqazghan</string>
-
-
-    <string name="check_internet_connection">Please, check the internet connection. Then select city again.</string>
-    <string name="check_internet">Please, check the internet connection.</string>
-    <string name="left_time">Left time</string>
-    <string name="timings">timings</string>
-    <string name="add_widget">Add widget</string>
-    <string name="color">color</string>
+    <string name="usharal_value">usharal</string>
+    <string name="hromtau_value">hromtau</string>
 
     <!-- Schedule Months -->
     <string name="table_date">Date</string>
@@ -86,198 +160,94 @@
     <string name="december">December</string>
     <string name="schedule">Monthly schedule</string>
 
-    <string name="about">ABOUT APP</string>
-    <string name="share">Share app</string>
-    <string name="share_key">share</string>
-    <string name="share_text">Get \"iman\" app on Play Market</string>
-    <string name="rate">Rate app</string>
-    <string name="rate_key">rate</string>
-    <string name="my_name">© Nurdaulet Yeltayev</string>
-    <string name="version">Version</string>
-
-    <!-- Strings related to Settings -->
-    <string name="settings">Settings</string>
-    <string name="languages">Choose language</string>
-
-    <string name="language_key">choose_language_key</string>
-
-    <string name="ru_value">ru</string>
-    <string name="kz_value">kk</string>
-    <string name="en_value">en</string>
-
-    <string name="ru_label">Русский</string>
-    <string name="kz_label">Қазақша</string>
-    <string name="en_label">English</string>
-
-    <string name="start">Click to start</string>
-    <string name="welcome">Welcome!</string>
-    <string name="check_download">Schedule wasn\'t downloaded. Check the internet connection and try again.</string>
-    <string name="cancel">Cancel</string>
-
-    <string name="notifications">NOTIFICATIONS</string>
-    <string name="notification_sound">NOTIFICATION SOUND</string>
-
-    <string name="fajr_notification_key">fajr_notification</string>
-    <string name="sunrise_notification_key">sunrise_notification</string>
-    <string name="dhuhr_notification_key">dhuhr_notification</string>
-    <string name="asr_notification_key">asr_notification</string>
-    <string name="maghrib_notification_key">maghrib_notification</string>
-    <string name="isha_notification_key">isha_notification</string>
-    <string name="fajr_notification_changed_key">fajr_notification_changed_key</string>
-    <string name="notification_changed">notification_changed</string>
-    <string name="sunrise_notification_changed_key">sunrise_notification_changed_key</string>
-    <string name="dhuhr_notification_changed_key">dhuhr_notification_changed_key</string>
-    <string name="asr_notification_changed_key">asr_notification_changed_key</string>
-    <string name="maghrib_notification_changed_key">maghrib_notification_changed_key</string>
-    <string name="isha_notification_changed_key">isha_notification_changed_key</string>
-
-    <string name="azan">Athan</string>
-    <string name="azan_key">azan_key</string>
-    <string name="no_label">No</string>
-    <string name="azan_kasym_label">Kasym</string>
-    <string name="azan_kasym_1_label">Kasym 1</string>
-    <string name="no_value">no</string>
-    <string name="azan_kasym_value">kasym</string>
-    <string name="azan_kasym_1_value">kasym_one</string>
-
-    <string name="ringtone">Ringtone</string>
-    <string name="ringtone_key">ringtone_key</string>
-    <string name="unselect_azan">To select ringtone, please, set Athan to \"no\".</string>
-    <string name="vibrate">Vibrate</string>
-    <string name="vibrate_key">vibrate_key</string>
-
     <!--  EVENTS -->
     <string name="event1_month_short">Mar</string>
-    <string name="event1_day_short">29</string>
-    <string name="event1_week_short">WED</string>
+    <string name="event1_day_short">19</string>
+    <string name="event1_week_short">MON</string>
     <string name="event1_name">Beginning of holy\n3 months</string>
-    <string name="event1_hijri_date">1 Rajab, 1438</string>
-    <string name="event1_grig_date">29 March, 2017</string>
+    <string name="event1_hijri_date">1 Rajab, 1439</string>
+    <string name="event1_grig_date">19 March, 2018</string>
     <string name="event1_info">Soon</string>
 
     <string name="event2_month_short">Apr</string>
-    <string name="event2_day_short">23/24</string>
-    <string name="event2_week_short">SUN</string>
+    <string name="event2_day_short">13</string>
+    <string name="event2_week_short">FRI</string>
     <string name="event2_name">Mi\'raj night</string>
-    <string name="event2_hijri_date">26/27 Rajab, 1438</string>
-    <string name="event2_grig_date">23/24 April, 2017</string>
+    <string name="event2_hijri_date">26 Rajab, 1439</string>
+    <string name="event2_grig_date">13 April, 2018</string>
     <string name="event2_info">Soon</string>
 
-    <string name="event3_month_short">May</string>
-    <string name="event3_day_short">10/11</string>
-    <string name="event3_week_short">WED</string>
+    <string name="event3_month_short">Apr</string>
+    <string name="event3_day_short">30</string>
+    <string name="event3_week_short">MON</string>
     <string name="event3_name">Bara\'at Night</string>
-    <string name="event3_hijri_date">14/15 Shaban, 1438</string>
-    <string name="event3_grig_date">10/11 May 3017</string>
+    <string name="event3_hijri_date">14 Shaban, 1439</string>
+    <string name="event3_grig_date">30 April, 2018</string>
     <string name="event3_info">Soon</string>
 
     <string name="event4_month_short">May</string>
-    <string name="event4_day_short">27</string>
-    <string name="event4_week_short">SAT</string>
+    <string name="event4_day_short">16</string>
+    <string name="event4_week_short">WED</string>
     <string name="event4_name">First Day of Ramadan</string>
-    <string name="event4_hijri_date">1 Ramadan, 1438</string>
-    <string name="event4_grig_date">27 May, 2017</string>
+    <string name="event4_hijri_date">1 Ramadan, 1439</string>
+    <string name="event4_grig_date">16 May, 2018</string>
     <string name="event4_info">Soon</string>
 
     <string name="event5_month_short">Jun</string>
-    <string name="event5_day_short">21/22</string>
-    <string name="event5_week_short">WED</string>
+    <string name="event5_day_short">10</string>
+    <string name="event5_week_short">SUN</string>
     <string name="event5_name">Lailat-ul-Qadr</string>
-    <string name="event5_hijri_date">26/27 Ramadan, 1438</string>
-    <string name="event5_grig_date">21/22 June, 2017</string>
+    <string name="event5_hijri_date">26 Ramadan, 1439</string>
+    <string name="event5_grig_date">10 June, 2018</string>
     <string name="event5_info">Soon</string>
 
     <string name="event6_month_short">Jun</string>
-    <string name="event6_day_short">25</string>
-    <string name="event6_week_short">SUN</string>
-    <string name="event6_name">Eid Ramadan\n(Day 1)</string>
-    <string name="event6_hijri_date">1 Shawwal, 1438</string>
-    <string name="event6_grig_date">25 June, 2017</string>
+    <string name="event6_day_short">15</string>
+    <string name="event6_week_short">FRI</string>
+    <string name="event6_name">Eid Ramadan\n</string>
+    <string name="event6_hijri_date">1 Shawwal, 1439</string>
+    <string name="event6_grig_date">15 June, 2018</string>
     <string name="event6_info">Soon</string>
 
-    <string name="event7_month_short">Jun</string>
-    <string name="event7_day_short">26</string>
-    <string name="event7_week_short">MON</string>
-    <string name="event7_name">Eid Ramadan\n(Day 2)</string>
-    <string name="event7_hijri_date">2 Shawwal, 1438</string>
-    <string name="event7_grig_date">26 June, 2017</string>
-    <string name="event7_info">Soon</string>
-
-    <string name="event8_month_short">Jun</string>
-    <string name="event8_day_short">27</string>
-    <string name="event8_week_short">TUE</string>
-    <string name="event8_name">Eid Ramadan\n(Day 3)</string>
-    <string name="event8_hijri_date">3 Shawwal, 1438</string>
-    <string name="event8_grig_date">27 June, 2017</string>
-    <string name="event8_info">Soon</string>
-
     <string name="event9_month_short">Aug</string>
-    <string name="event9_day_short">31</string>
-    <string name="event9_week_short">THU</string>
+    <string name="event9_day_short">20</string>
+    <string name="event9_week_short">MON</string>
     <string name="event9_name">Arafa Day</string>
-    <string name="event9_hijri_date">9 Dhul Hijjah, 1438</string>
-    <string name="event9_grig_date">31 August, 2017</string>
+    <string name="event9_hijri_date">9 Dhul Hijjah, 1439</string>
+    <string name="event9_grig_date">20 August, 2018</string>
     <string name="event9_info">Soon</string>
 
-    <string name="event10_month_short">Sep</string>
-    <string name="event10_day_short">1</string>
-    <string name="event10_week_short">FRI</string>
-    <string name="event10_name">Qurban Eid (Day 1)</string>
-    <string name="event10_hijri_date">10 Dhul Hijjah, 1438</string>
-    <string name="event10_grig_date">1 September, 2017</string>
+    <string name="event10_month_short">Aug</string>
+    <string name="event10_day_short">21</string>
+    <string name="event10_week_short">TUE</string>
+    <string name="event10_name">Qurban Eid</string>
+    <string name="event10_hijri_date">10 Dhul Hijjah, 1439</string>
+    <string name="event10_grig_date">21 August, 2018</string>
     <string name="event10_info">Soon</string>
 
-    <string name="event11_month_short">Sep</string>
-    <string name="event11_day_short">2</string>
-    <string name="event11_week_short">SAT</string>
-    <string name="event11_name">Qurban Eid (Day 2)</string>
-    <string name="event11_hijri_date">11 Dhul Hijjah, 1438</string>
-    <string name="event11_grig_date">2 September, 2017</string>
-    <string name="event11_info">Soon</string>
-
-    <string name="event12_month_short">Sep</string>
-    <string name="event12_day_short">3</string>
-    <string name="event12_week_short">SUN</string>
-    <string name="event12_name">Qurban Eid (Day 3)</string>
-    <string name="event12_hijri_date">12 Dhul Hijjah, 1438</string>
-    <string name="event12_grig_date">3 September, 2017</string>
-    <string name="event12_info">Soon</string>
-
-    <string name="event13_month_short">Sep</string>
-    <string name="event13_day_short">4</string>
-    <string name="event13_week_short">MON</string>
-    <string name="event13_name">Qurban Eid (Day 4)</string>
-    <string name="event13_hijri_date">13 Dhul Hijjah, 1438</string>
-    <string name="event13_grig_date">4 September, 2017</string>
-    <string name="event13_info">Soon</string>
-
     <string name="event14_month_short">Sep</string>
-    <string name="event14_day_short">21</string>
-    <string name="event14_week_short">THU</string>
+    <string name="event14_day_short">11</string>
+    <string name="event14_week_short">TUE</string>
     <string name="event14_name">Hijri New Year</string>
-    <string name="event14_hijri_date">1 Muharram, 1439</string>
-    <string name="event14_grig_date">21 September, 2017</string>
+    <string name="event14_hijri_date">1 Muharram, 1440</string>
+    <string name="event14_grig_date">11 September, 2018</string>
     <string name="event14_info">Soon</string>
 
     <string name="event15_month_short">Sep</string>
-    <string name="event15_day_short">30</string>
-    <string name="event15_week_short">SAT</string>
+    <string name="event15_day_short">20</string>
+    <string name="event15_week_short">THU</string>
     <string name="event15_name">Day of Aashoora</string>
-    <string name="event15_hijri_date">10 Muharram, 1439</string>
-    <string name="event15_grig_date">30 September, 2017</string>
+    <string name="event15_hijri_date">10 Muharram, 1440</string>
+    <string name="event15_grig_date">20 September, 2018</string>
     <string name="event15_info">Soon</string>
 
     <string name="event16_month_short">Nov</string>
-    <string name="event16_day_short">30/1</string>
-    <string name="event16_week_short">THU</string>
+    <string name="event16_day_short">19</string>
+    <string name="event16_week_short">MON</string>
     <string name="event16_name">Mawlid\nBirth of the Prophet</string>
-    <string name="event16_hijri_date">11/12 Rabi Al-Awwal, 1439</string>
-    <string name="event16_grig_date">30/1 November/December, 2017</string>
+    <string name="event16_hijri_date">11 Rabi Al-Awwal, 1440</string>
+    <string name="event16_grig_date">19 November, 2018</string>
     <string name="event16_info">Soon</string>
-
-    <string name="event">Islamic days</string>
-    <string name="mosque">Mosques</string>
-    <string name="today">Today</string>
 
     <string name="muharram">Muharram</string>
     <string name="safar">Safar</string>
@@ -301,8 +271,10 @@
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="help_key">help</string>
+    <string name="help">Suggestions and bugs</string>
+    <string name="mail">Send email...</string>
 
-    <string name="action_settings">Settings</string>
-    <string name="names">99 names of Allah</string>
+
 
 </resources>

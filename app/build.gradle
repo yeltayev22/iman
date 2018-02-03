@@ -3,12 +3,17 @@ apply plugin: 'com.android.application'
 android {
     compileSdkVersion 25
     buildToolsVersion "25.0.3"
+
+    lintOptions {
+        disable 'MissingTranslation'
+    }
+
     defaultConfig {
         applicationId "zerotoonecom.n17r.mubr"
         minSdkVersion 15
         targetSdkVersion 25
-        versionCode 3
-        versionName "1.2"
+        versionCode 4
+        versionName "1.5"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
         vectorDrawables.useSupportLibrary = true
     }
@@ -25,12 +30,6 @@ dependencies {
     androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
-
-    // Joda Time
-    // Firebase
-    // RecyclerView
-    // CardView
-
 
     compile 'joda-time:joda-time:2.9.9'
     compile 'com.google.firebase:firebase-messaging:11.0.2'

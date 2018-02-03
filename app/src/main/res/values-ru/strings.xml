@@ -40,6 +40,8 @@
     <string name="turkestan_label">Туркестан</string>
     <string name="oskemen_label">Усть-Каменогорск</string>
     <string name="zhezqazghan_label">Жезказган</string>
+    <string name="usharal_label">Ушарал</string>
+    <string name="hromtau_label">Хромтау</string>
 
 
     <!-- City values -->
@@ -62,6 +64,9 @@
     <string name="turkestan_value">turkestan</string>
     <string name="oskemen_value">oskemen</string>
     <string name="zhezqazghan_value">zhezqazghan</string>
+    <string name="usharal_value">usharal</string>
+    <string name="hromtau_value">hromtau</string>
+
 
 
     <string name="check_internet_connection">Пожалуйста, проверьте соединение с интернетом и попробуйте снова.</string>
@@ -113,6 +118,7 @@
     <string name="welcome">Добро пожаловать!</string>
     <string name="check_download">Не удалось скачать таблицу. Проверьте соединение с интернетом и попробуйте снова.</string>
     <string name="cancel">Отмена</string>
+    <string name="ok">OK</string>
 
     <string name="notifications">УВЕДОМЛЕНИЯ</string>
     <string name="notification_sound">ЗВУК УВЕДОМЛЕНИЯ</string>
@@ -134,12 +140,14 @@
     <string name="azan">Азан</string>
     <string name="azan_key">azan_key</string>
     <string name="no_label">Нет</string>
-    <string name="azan_kasym_label">Касым</string>
-    <string name="azan_kasym_1_label">Касым 1</string>
+    <string name="azan_kasym_label">Касым Ашимов (Утренний намаз)</string>
+    <string name="azan_kasym_1_label">Касым Ашимов</string>
+    <string name="azan_ali_ahmad_label">Шейх Али Ахмед Мулла</string>
 
     <string name="no_value">no</string>
     <string name="azan_kasym_value">kasym</string>
     <string name="azan_kasym_1_value">kasym_one</string>
+    <string name="azan_ali_ahmad_value">ali_ahmad</string>
 
     <string name="ringtone">Рингтон</string>
     <string name="ringtone_key">ringtone_key</string>
@@ -150,131 +158,91 @@
 
     <!--  EVENTS -->
     <string name="event1_month_short">Мрт.</string>
-    <string name="event1_day_short">29</string>
-    <string name="event1_week_short">СР</string>
+    <string name="event1_day_short">19</string>
+    <string name="event1_week_short">ПН</string>
     <string name="event1_name">Начало священных\n3 месяцев</string>
-    <string name="event1_hijri_date">1 Ражаб, 1438</string>
-    <string name="event1_grig_date">29 Март, 2017</string>
+    <string name="event1_hijri_date">1 Ражаб, 1439</string>
+    <string name="event1_grig_date">19 Март, 2018</string>
     <string name="event1_info">Скоро</string>
 
     <string name="event2_month_short">Апр.</string>
-    <string name="event2_day_short">23/24</string>
-    <string name="event2_week_short">ВС</string>
+    <string name="event2_day_short">13</string>
+    <string name="event2_week_short">ПТ</string>
     <string name="event2_name">Ночь Мираж</string>
-    <string name="event2_hijri_date">26/27 Ражаб, 1438</string>
-    <string name="event2_grig_date">23/24 Апрель, 2017</string>
+    <string name="event2_hijri_date">26 Ражаб, 1439</string>
+    <string name="event2_grig_date">13 Апрель, 2018</string>
     <string name="event2_info">Скоро</string>
 
-    <string name="event3_month_short">Май</string>
-    <string name="event3_day_short">10/11</string>
-    <string name="event3_week_short">СР</string>
+    <string name="event3_month_short">Апр.</string>
+    <string name="event3_day_short">30</string>
+    <string name="event3_week_short">ПН</string>
     <string name="event3_name">Ночь Бараат</string>
-    <string name="event3_hijri_date">14/15 Шаабан, 1438</string>
-    <string name="event3_grig_date">10/11 Май 3017</string>
+    <string name="event3_hijri_date">14 Шаабан, 1439</string>
+    <string name="event3_grig_date">30 Апрель, 2018</string>
     <string name="event3_info">Скоро</string>
 
     <string name="event4_month_short">Май</string>
-    <string name="event4_day_short">27</string>
-    <string name="event4_week_short">СБ</string>
+    <string name="event4_day_short">16</string>
+    <string name="event4_week_short">СР</string>
     <string name="event4_name">Первый день Рамадана</string>
-    <string name="event4_hijri_date">1 Рамадан, 1438</string>
-    <string name="event4_grig_date">27 Май, 2017</string>
+    <string name="event4_hijri_date">1 Рамадан, 1439</string>
+    <string name="event4_grig_date">16 Май, 2018</string>
     <string name="event4_info">Скоро</string>
 
     <string name="event5_month_short">Июн.</string>
-    <string name="event5_day_short">21/22</string>
-    <string name="event5_week_short">СР</string>
+    <string name="event5_day_short">10</string>
+    <string name="event5_week_short">ВС</string>
     <string name="event5_name">Ночь аль-Кадр</string>
-    <string name="event5_hijri_date">26/27 Рамадан, 1438</string>
-    <string name="event5_grig_date">21/22 Июнь, 2017</string>
+    <string name="event5_hijri_date">26 Рамадан, 1439</string>
+    <string name="event5_grig_date">10 Июнь, 2018</string>
     <string name="event5_info">Скоро</string>
 
     <string name="event6_month_short">Июн.</string>
-    <string name="event6_day_short">25</string>
-    <string name="event6_week_short">ВС</string>
+    <string name="event6_day_short">15</string>
+    <string name="event6_week_short">ПТ</string>
     <string name="event6_name">Рамадан айт\n(День 1)</string>
-    <string name="event6_hijri_date">1 Шавваль, 1438</string>
-    <string name="event6_grig_date">25 Июнь, 2017</string>
+    <string name="event6_hijri_date">1 Шавваль, 1439</string>
+    <string name="event6_grig_date">15 Июнь, 2018</string>
     <string name="event6_info">Скоро</string>
 
-    <string name="event7_month_short">Июн.</string>
-    <string name="event7_day_short">26</string>
-    <string name="event7_week_short">ПН</string>
-    <string name="event7_name">Рамадан айт\n(День 2)</string>
-    <string name="event7_hijri_date">2 Шавваль, 1438</string>
-    <string name="event7_grig_date">26 Июнь, 2017</string>
-    <string name="event7_info">Скоро</string>
-
-    <string name="event8_month_short">Июн.</string>
-    <string name="event8_day_short">27</string>
-    <string name="event8_week_short">ВТ</string>
-    <string name="event8_name">Рамадан айт\n(День 3)</string>
-    <string name="event8_hijri_date">3 Шавваль, 1438</string>
-    <string name="event8_grig_date">27 Июнь, 2017</string>
-    <string name="event8_info">Скоро</string>
-
     <string name="event9_month_short">Авг.</string>
-    <string name="event9_day_short">31</string>
-    <string name="event9_week_short">ЧТ</string>
+    <string name="event9_day_short">20</string>
+    <string name="event9_week_short">ПН</string>
     <string name="event9_name">День Арафа</string>
-    <string name="event9_hijri_date">9 Зуль-Хиджа, 1438</string>
-    <string name="event9_grig_date">31 Август, 2017</string>
+    <string name="event9_hijri_date">9 Зуль-Хиджа, 1439</string>
+    <string name="event9_grig_date">20 Август, 2018</string>
     <string name="event9_info">Скоро</string>
 
-    <string name="event10_month_short">Сен.</string>
-    <string name="event10_day_short">1</string>
-    <string name="event10_week_short">ПТ</string>
+    <string name="event10_month_short">Авг.</string>
+    <string name="event10_day_short">21</string>
+    <string name="event10_week_short">ВТ</string>
     <string name="event10_name">Курбан айт (День 1)</string>
-    <string name="event10_hijri_date">10 Зуль-Хиджа, 1438</string>
-    <string name="event10_grig_date">1 Сентябрь, 2017</string>
+    <string name="event10_hijri_date">10 Зуль-Хиджа, 1439</string>
+    <string name="event10_grig_date">21 Август, 2018</string>
     <string name="event10_info">Скоро</string>
 
-    <string name="event11_month_short">Сен.</string>
-    <string name="event11_day_short">2</string>
-    <string name="event11_week_short">СБ</string>
-    <string name="event11_name">Курбан айт (День 2)</string>
-    <string name="event11_hijri_date">11 Зуль-Хиджа, 1438</string>
-    <string name="event11_grig_date">2 Сентябрь, 2017</string>
-    <string name="event11_info">Скоро</string>
-
-    <string name="event12_month_short">Сен.</string>
-    <string name="event12_day_short">3</string>
-    <string name="event12_week_short">ВС</string>
-    <string name="event12_name">Курбан айт (День 3)</string>
-    <string name="event12_hijri_date">12 Зуль-Хиджа, 1438</string>
-    <string name="event12_grig_date">3 Сентябрь, 2017</string>
-    <string name="event12_info">Скоро</string>
-
-    <string name="event13_month_short">Сен.</string>
-    <string name="event13_day_short">4</string>
-    <string name="event13_week_short">ПН</string>
-    <string name="event13_name">Курбан айт (День 4)</string>
-    <string name="event13_hijri_date">13 Зуль-Хиджа, 1438</string>
-    <string name="event13_grig_date">4 Сентябрь, 2017</string>
-    <string name="event13_info">Скоро</string>
-
     <string name="event14_month_short">Сен.</string>
-    <string name="event14_day_short">21</string>
-    <string name="event14_week_short">ЧТ</string>
+    <string name="event14_day_short">11</string>
+    <string name="event14_week_short">ВТ</string>
     <string name="event14_name">Новый год\nпо Хиджре</string>
-    <string name="event14_hijri_date">1 Мухаррам, 1439</string>
-    <string name="event14_grig_date">21 Сентябрь, 2017</string>
+    <string name="event14_hijri_date">1 Мухаррам, 1440</string>
+    <string name="event14_grig_date">11 Сентябрь, 2018</string>
     <string name="event14_info">Скоро</string>
 
     <string name="event15_month_short">Сен.</string>
-    <string name="event15_day_short">30</string>
-    <string name="event15_week_short">СБ</string>
+    <string name="event15_day_short">20</string>
+    <string name="event15_week_short">ЧТ</string>
     <string name="event15_name">День Ашура</string>
-    <string name="event15_hijri_date">10 Мухаррам, 1439</string>
-    <string name="event15_grig_date">30 Сентябрь, 2017</string>
+    <string name="event15_hijri_date">10 Мухаррам, 1440</string>
+    <string name="event15_grig_date">20 Сентябрь, 2018</string>
     <string name="event15_info">Скоро</string>
 
     <string name="event16_month_short">Нбр.</string>
-    <string name="event16_day_short">30/1</string>
-    <string name="event16_week_short">ЧТ</string>
+    <string name="event16_day_short">19</string>
+    <string name="event16_week_short">ПН</string>
     <string name="event16_name">Мавлид\nДень рождения пророка</string>
-    <string name="event16_hijri_date">11/12 Рабиуль-Авваль, 1439</string>
-    <string name="event16_grig_date">30/1 Ноябрь/Декабрь, 2017</string>
+    <string name="event16_hijri_date">11 Рабиуль-Авваль, 1440</string>
+    <string name="event16_grig_date">19 Ноябрь, 2018</string>
     <string name="event16_info">Скоро</string>
 
     <string name="event">Исламские праздники</string>
@@ -301,4 +269,8 @@
     <string name="empty">Пожалуйста, проверьте соединение с интернетом и GPS</string>
     <string name="try_again">Повторить попытку</string>
     <string name="names">99 имён Аллаха</string>
+    <string name="help_key">help</string>
+    <string name="help">Ошибки и предложения</string>
+    <string name="mail">Отправить сообщение...</string>
+
 </resources>
