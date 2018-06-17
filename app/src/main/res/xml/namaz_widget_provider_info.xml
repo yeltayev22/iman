@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+    android:initialKeyguardLayout="@layout/namaz_widget_provider"
+    android:initialLayout="@layout/namaz_widget_provider"
+    android:minHeight="40dip"
+    android:minWidth="250dip"
+    android:previewImage="@drawable/widgetpreview"
+    android:resizeMode="horizontal"
+    android:updatePeriodMillis="21600000"
+    android:widgetCategory="home_screen">
+
+</appwidget-provider>

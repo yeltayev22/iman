@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ListPreference
+        android:defaultValue="@string/ru_value"
+        android:entries="@array/language_labels"
+        android:entryValues="@array/language_values"
+        android:key="@string/language_key"
+        android:summary="%s"
+        android:title="@string/languages" />
+
+    <ListPreference
+        android:defaultValue="@string/astana_value"
+        android:entries="@array/choose_city_labels"
+        android:entryValues="@array/choose_city_values"
+        android:key="@string/choose_city_key"
+        android:summary="%s"
+        android:title="@string/choose_city" />
+
+    <PreferenceCategory android:title="@string/notifications">
+
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="@string/fajr_notification_key"
+            android:title="@string/fajr" />
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="@string/sunrise_notification_key"
+            android:title="@string/sunrise" />
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="@string/dhuhr_notification_key"
+            android:title="@string/dhuhr" />
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="@string/asr_notification_key"
+            android:title="@string/asr" />
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="@string/maghrib_notification_key"
+            android:title="@string/maghrib" />
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="@string/isha_notification_key"
+            android:title="@string/isha" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/notification_sound">
+
+        <ListPreference
+            android:defaultValue="@string/no_value"
+            android:entries="@array/azan_labels"
+            android:entryValues="@array/azan_values"
+            android:key="@string/azan_key"
+            android:summary="%s"
+            android:title="@string/azan" />
+
+        <RingtonePreference
+            android:defaultValue="@string/no_value"
+            android:key="@string/ringtone_key"
+            android:title="@string/ringtone" />
+
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="@string/vibrate_key"
+            android:title="@string/vibrate" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/about">
+
+        <Preference
+            android:icon="@drawable/share_button"
+            android:key="@string/share_key"
+            android:title="@string/share" />
+
+        <Preference
+            android:icon="@drawable/rate"
+            android:key="@string/rate_key"
+            android:title="@string/rate" />
+
+        <Preference
+            android:icon="@drawable/help"
+            android:key="@string/help_key"
+            android:title="@string/help" />
+
+        <Preference
+            android:key="my_name"
+            android:layout="@layout/about" />
+
+
+    </PreferenceCategory>
+</PreferenceScreen>

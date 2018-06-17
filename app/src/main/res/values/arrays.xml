@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="choose_city_labels">
+        <item>@string/astana_label</item>
+        <item>@string/almaty_label</item>
+        <item>@string/atyrau_label</item>
+        <item>@string/aqtobe_label</item>
+        <item>@string/aqtau_label</item>
+        <item>@string/karagandy_label</item>
+        <item>@string/kokshetau_label</item>
+        <item>@string/kostanay_label</item>
+        <item>@string/kyzylorda_label</item>
+        <item>@string/pavlodar_label</item>
+        <item>@string/petropavlovsk_label</item>
+        <item>@string/taldykorgan_label</item>
+        <item>@string/taraz_label</item>
+        <item>@string/turkestan_label</item>
+        <item>@string/semey_label</item>
+        <item>@string/shymkent_label</item>
+        <item>@string/oral_label</item>
+        <item>@string/oskemen_label</item>
+        <item>@string/zhezqazghan_label</item>
+        <item>@string/usharal_label</item>
+        <item>@string/hromtau_label</item>
+        <item>@string/temirtau_label</item>
+    </string-array>
+
+    <string-array name="choose_city_values">
+        <item>@string/astana_value</item>
+        <item>@string/almaty_value</item>
+        <item>@string/atyrau_value</item>
+        <item>@string/aqtobe_value</item>
+        <item>@string/aqtau_value</item>
+        <item>@string/karagandy_value</item>
+        <item>@string/kokshetau_value</item>
+        <item>@string/kostanay_value</item>
+        <item>@string/kyzylorda_value</item>
+        <item>@string/pavlodar_value</item>
+        <item>@string/petropavlovsk_value</item>
+        <item>@string/taldykorgan_value</item>
+        <item>@string/taraz_value</item>
+        <item>@string/turkestan_value</item>
+        <item>@string/semey_value</item>
+        <item>@string/shymkent_value</item>
+        <item>@string/oral_value</item>
+        <item>@string/oskemen_value</item>
+        <item>@string/zhezqazghan_value</item>
+        <item>@string/usharal_value</item>
+        <item>@string/hromtau_value</item>
+        <item>@string/temirtau_value</item>
+    </string-array>
+
+    <string-array name="months_array">
+        <item>@string/january</item>
+        <item>@string/february</item>
+        <item>@string/march</item>
+        <item>@string/april</item>
+        <item>@string/may</item>
+        <item>@string/june</item>
+        <item>@string/july</item>
+        <item>@string/august</item>
+        <item>@string/september</item>
+        <item>@string/october</item>
+        <item>@string/november</item>
+        <item>@string/december</item>
+    </string-array>
+
+    <string-array name="language_labels">
+        <item>@string/ru_label</item>
+        <item>@string/kz_label</item>
+        <item>@string/en_label</item>
+    </string-array>
+
+    <string-array name="language_values">
+        <item>@string/ru_value</item>
+        <item>@string/kz_value</item>
+        <item>@string/en_value</item>
+    </string-array>
+
+    <string-array name="azan_labels">
+        <item>@string/no_label</item>
+        <item>@string/azan_kasym_label</item>
+        <item>@string/azan_kasym_1_label</item>
+        <item>@string/azan_ali_ahmad_label</item>
+    </string-array>
+
+    <string-array name="azan_values">
+        <item>@string/no_value</item>
+        <item>@string/azan_kasym_value</item>
+        <item>@string/azan_kasym_1_value</item>
+        <item>@string/azan_ali_ahmad_value</item>
+    </string-array>
+
+</resources>
