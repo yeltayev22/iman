@@ -25,7 +25,8 @@ import zerotoonecom.n17r.mubr.R;
 import zerotoonecom.n17r.mubr.Time.NamazTimeContract;
 import zerotoonecom.n17r.mubr.Time.NamazTimeDbHelper;
 
-public class ScheduleActivity extends AppCompatActivity implements AdapterView.OnItemSelectedListener {
+public class ScheduleActivity extends AppCompatActivity
+        implements AdapterView.OnItemSelectedListener {
 
     TableLayout table;
     Spinner month;
